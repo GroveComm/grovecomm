@@ -1,0 +1,30 @@
+{
+  "name": "grovecomm",
+  "author": "Grove Communications",
+  "version": "1.0.0",
+  "description": "Website",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GroveComm/grovecomm.git"
+  },
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "homepage": "http://grovecomm.com/",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "bootstrap": "^3.3.7",
+    "browser-sync": "^2.18.12",
+    "express": "^4.15.3",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
+    "jquery": "^3.2.1",
+    "knex": "^0.13.0",
+    "moment": "^2.18.1",
+    "morgan": "^1.8.2",
+    "pg": "^6.4.0"
+  }
+}
